@@ -43,6 +43,10 @@ table th{
         background-color: #dddddd;
     }
 
-    
+    table td:last-child{
+        border-bottom: 0;
+        border: 1px solid #000000;
+    }
 
 }
+
