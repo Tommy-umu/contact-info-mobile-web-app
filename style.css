@@ -16,39 +16,4 @@ table th{
     text-transform:uppercase;
 }
 
-@media screen and (max-width: 600px){
-    table caption{
-        font-size:1.5em;
-    }
 
-    table thead{
-        display:none;
-    }
-
-    table td{
-        display:block;
-        text-align:left;
-        border-bottom:0px;
-    }
-
-    table tr{
-        display:block;
-        margin-bottom:1em;
-    }
-
-    table td::before{
-        content:attr(data-label);
-        float:left;
-        font-weight:bold;
-        text-transform:uppercase;
-    }
-
-    tr:nth-child(even){
-        background-color: gray;
-    }
-
-    table td:last child{
-        border-bottom:0;
-        border:1px solid #000000
-    }
-}
